@@ -1,0 +1,15 @@
+<script>
+
+var mm = [];
+for (var i = 0; document.querySelectorAll('.Cp tr').length > i; i++) {
+   
+    if(i%3==0) {
+	    mm.push(document.querySelectorAll('.Cp tr')[i]);        
+        //document.querySelectorAll('.Cp tr')[i].remove();
+        document.querySelectorAll('.Cp tr')[i].setAttribute("style", "background:red; border: 1px solid blue;");
+
+    }
+    console.log(mm);
+   
+}
+</script>
